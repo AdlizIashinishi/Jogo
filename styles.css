@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.botao {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+
+.top-left.round-corner {
+    border-radius: 100% 5px 5px;
+}
+
+.top-right.round-corner {
+    border-radius: 5px 100% 5px 5px;
+}
+
+.bottom-left.round-corner {
+    border-radius: 5px 5px 5px 100%;
+}
+
+.bottom-right.round-corner {
+    border-radius: 5px 5px 100% 5px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.vermelho{
+  background-color: #F6A9A9;
+}
+
+.verde {
+  background-color: #C2F784;
+}
+
+.azul {
+  background-color: #8FC1D4;
+}
+
+.amarelo {
+  background-color: #FFF47D;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.registro {
+  font-size: 20px;
+  color: white;
+}
